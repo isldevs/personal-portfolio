@@ -1,0 +1,17 @@
+.typing-text {
+    display: inline-block;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.typing-text::after {
+    content: "_";
+    position: absolute;
+    right: -10px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    50.1%, 100% { opacity: 0; }
+}
