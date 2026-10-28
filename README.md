@@ -1,4 +1,4 @@
-# Sivlay Yi — Personal Portfolio
+# Portfolio
 
 A Java 21 + Spring Boot 3.5.6 + Vaadin Flow 24.9.2 portfolio with a responsive dark theme.
 
